@@ -12,12 +12,14 @@ NOTE: This is Footer style file. All footer related style included in this file.
   color: #f7f7f7;
 }
 .footer-widget-area {
-  padding: 130px 0 61px;
+  padding: 20px 0 61px;
 }
 .footer-logo > a {
+  padding-top: 0px;
   display: inline-block;
 }
 .footer-logo {
+  padding-top: 0px;
   margin-bottom: 29px;
 }
 .social-icons a {
@@ -45,6 +47,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   margin-top: 43px;
 }
 .single-footer-widget > h3 {
+  padding-top: 240px;
   color: #ffffff;
   font-size: 18px;
   line-height: 14px;
