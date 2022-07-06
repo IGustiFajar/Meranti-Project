@@ -32,10 +32,10 @@ NOTE: This is Slider style file. All Slider related style included in this file.
     padding: 0 42px;
     text-transform: uppercase;
     background: #fff;
-    color: #b5876d
+    color: #1A4D2E
 }
 .banner-btn a:before {
-    background: rgba(181, 135, 109, 1); 
+    background: #1A4D2E; 
     bottom: 0;
     content: "";
     left: 0;
@@ -98,7 +98,7 @@ NOTE: This is Slider style file. All Slider related style included in this file.
 .owl-nav .owl-next {left: auto; right: -46px;}
 .slider-area:hover .owl-nav div {left: 0;}
 .slider-area:hover .owl-nav .owl-next {left: auto;  right: 0;}
-.owl-nav div:hover{background: #B5876D; color: #fff}
+.owl-nav div:hover{background: #1A4D2E; color: #fff}
 .single-slide {
     background-repeat: no-repeat;
     background-size: cover;

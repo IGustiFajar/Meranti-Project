@@ -148,7 +148,7 @@ ul{
     color: #606060;
 }
 .default-btn {
-    background: #b5876d none repeat scroll 0 0;
+    background: #1A4D2E none repeat scroll 0 0;
     color: #ffffff;
     font-family: "Raleway",sans-serif;
     font-size: 14px;
@@ -180,7 +180,7 @@ ul{
     transform: scaleY(1);
     transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
-.default-btn:hover, .default-btn:focus, .default-btn:active {color: #B5876D}
+.default-btn:hover, .default-btn:focus, .default-btn:active {color: #1A4D2E}
 input,
 select,
 textarea {
@@ -191,7 +191,7 @@ textarea {
     02. Text color
 *************************/
 .text-white { color: #fff ;}
-.text-theme { color: #b5876d ;}
+.text-theme { color: #1A4D2E ;}
 /*************************
     03. Input
 *************************/
@@ -245,7 +245,7 @@ textarea:focus {
     04. Scrollup
 *************************/
 #scrollUp {
-    background: #B5876D none repeat scroll 0 0;
+    background: #1A4D2E none repeat scroll 0 0;
     bottom: 40px;
     color: #ffffff;
     cursor: pointer;
@@ -619,7 +619,7 @@ textarea:focus {
     text-align: center;
 }
 .pagination-content .pagination li a:hover, .pagination-content .pagination li.active a {
-    color: #b5876d;
+    color: #1A4D2E;
     background: transparent
 }
 .pagination-content .pagination li.active a {
@@ -650,7 +650,7 @@ textarea:focus {
 }
 .breadcrumb-text p {color: #fff; margin-bottom: 7px;}
 .breadcrumb-bar li {
-    color: #b5876d;
+    color: #1A4D2E;
     font-family: "raleway";
     font-size: 18px;
     line-height: 14px;
@@ -669,7 +669,7 @@ textarea:focus {
 .breadcrumb-bar .breadcrumb > li:first-child::after {right: -28px;}
 .breadcrumb-bar .breadcrumb > li + li:before {display: none;}
 .breadcrumb-bar a {color: #fff;}
-.breadcrumb-bar a:hover {color: #b5876d;}
+.breadcrumb-bar a:hover {color: #1A4D2E;}
 .breadcrumb-bar li:first-child {margin-left: 0;}
 
 

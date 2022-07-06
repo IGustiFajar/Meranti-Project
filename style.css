@@ -118,7 +118,7 @@ form.search-form {
 
 .about-links > a {
   border: 1px solid #f1f1f1;
-  color: #b5876d;
+  color: #1A4D2E;
   display: table;
   float: left;
   font-size: 18px;
@@ -135,8 +135,8 @@ form.search-form {
 }
 
 .about-links > a:hover {
-  background: #b5876d none repeat scroll 0 0;
-  border-color: #b5876d;
+  background: #1A4D2E none repeat scroll 0 0;
+  border-color: #1A4D2E;
   color: #ffffff;
 }
 
@@ -311,7 +311,7 @@ form.search-form {
 }
 
 .hover-text > h3:hover a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .hover-text {
@@ -431,7 +431,7 @@ span.image {
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  background-color: #b5876d !important;
+  background-color: #1A4D2E !important;
 }
 .nav-tabs .nav-link.active .text {
   color: #fff;
@@ -554,7 +554,7 @@ span.image.s-img {
 
 .gallery-hover a:hover {
   background: #ffffff none repeat scroll 0 0;
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .gallery-filter,
@@ -578,7 +578,7 @@ span.image.s-img {
 .gallery-filter button.active,
 .event-menu button:focus,
 .event-menu button.active {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .gallery-icon span {
@@ -680,7 +680,7 @@ span.image.s-img {
 }
 
 .team-links > a:hover {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .team-hover {
@@ -718,7 +718,7 @@ span.image.s-img {
 }
 
 .advertise-text span {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .advertise-text .default-btn {
@@ -739,8 +739,8 @@ span.image.s-img {
 
 .single-pricing {
   background: #f1f1f1 none repeat scroll 0 0;
-  border-bottom: 1px solid #b5876d;
-  border-top: 1px solid #b5876d;
+  border-bottom: 1px solid #1A4D2E;
+  border-top: 1px solid #1A4D2E;
   padding-bottom: 49px;
   text-align: center;
 }
@@ -788,7 +788,7 @@ span.image.s-img {
 }
 
 .signup-btn a::before {
-  background: #b5876d none repeat scroll 0 0;
+  background: #1A4D2E none repeat scroll 0 0;
   bottom: 0;
   content: "";
   left: 0;
@@ -816,7 +816,7 @@ span.image.s-img {
 
 .best-offer .package-name > h1,
 .best-offer .signup-btn a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .signup-btn a:hover {
@@ -925,7 +925,7 @@ span.image.s-img {
 }
 
 .blog-hover .default-btn::before {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .single-blog-wrapper:hover .blog-hover {
@@ -933,7 +933,7 @@ span.image.s-img {
 }
 
 .blog-hover > h3:hover a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .blog-hover > p {
@@ -992,22 +992,24 @@ span.image.s-img {
 /*  10. Client Area
 /*----------------------------------------*/
 .client-area {
-  padding: 68px 0 61px;
+  padding: 77px 0 0px;
 }
 
 .client-image > a {
   display: table-cell;
   vertical-align: middle;
+  
 }
 
 .single-client {
-  height: 80px;
-  padding-left: 15px;
-  padding-right: 15px;
+  height: 250px;
+  padding-left: 0px;
+  padding-right: 0px;
   text-align: center;
 }
 
 .client-image {
+  width: 75%;
   display: inline-table;
   height: 100%;
 }
@@ -1186,7 +1188,7 @@ span.image.s-img {
 }
 
 .room-list-text > h3:hover a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .room-service p {
@@ -1225,7 +1227,7 @@ span.image.s-img {
 }
 
 .room-list .p-amount {
-  background: #b5876d none repeat scroll 0 0;
+  background: #1A4D2E none repeat scroll 0 0;
   bottom: 0;
   height: 101px;
   opacity: 0;
@@ -1247,7 +1249,7 @@ span.image.s-img {
 }
 
 .room-list:hover::after {
-  background: #b5876d none repeat scroll 0 0;
+  background: #1A4D2E none repeat scroll 0 0;
 }
 
 .room-list:hover {
@@ -1332,7 +1334,7 @@ span.image.s-img {
 }
 
 .room-details-title::after {
-  background: #b5876d none repeat scroll 0 0;
+  background: #1A4D2E none repeat scroll 0 0;
   bottom: -10px;
   content: "";
   height: 1px;
@@ -1525,7 +1527,7 @@ span.image.s-img {
 }
 
 .post-text h4:hover a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .post-text > span {
@@ -1601,7 +1603,7 @@ span.image.s-img {
 }
 
 .location-text > h3:hover a {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .location-text {
@@ -1689,7 +1691,7 @@ span.image.s-img {
 
 .event-text .author-name {
   bottom: -90%;
-  color: #b5876d;
+  color: #1A4D2E;
   position: absolute;
   transition: all 0.8s ease 0s;
   z-index: 1;
@@ -1789,7 +1791,7 @@ span.c-text {
 }
 
 .link-social > a:hover {
-  color: #b5876d;
+  color: #1A4D2E;
 }
 
 .link-social > a i {

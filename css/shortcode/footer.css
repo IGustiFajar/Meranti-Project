@@ -37,8 +37,8 @@ NOTE: This is Footer style file. All footer related style included in this file.
   margin-right: 0;
 }
 .social-icons > a:hover {
-  background: #b5876d none repeat scroll 0 0;
-  border-color: #b5876d;
+  background: #F6E3C5 none repeat scroll 0 0;
+  border-color: #F6E3C5;
   color: #ffffff;
 }
 .social-icons {
@@ -64,7 +64,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   transition: all 0.3s ease 0s;
 }
 .footer-list li a:hover {
-  color: #b5876d;
+  color: #F6E3C5;
 }
 .c-info > span:last-child {
   display: block;
@@ -74,7 +74,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
 }
 .c-info > span:first-child {
   border: 1px solid #ffffff;
-  color: #b5876d;
+  color: #F6E3C5;
   display: inline-table;
   font-size: 18px;
   height: 33px;
@@ -96,7 +96,7 @@ NOTE: This is Footer style file. All footer related style included in this file.
   position: relative;
 }
 .c-info:hover > span:first-child {
-  background: #ffffff none repeat scroll 0 0;
+  background: #1A4D2E none repeat scroll 0 0;
 }
 
 .instagram-image {
@@ -178,10 +178,10 @@ NOTE: This is Footer style file. All footer related style included in this file.
   padding: 24px 0;
 }
 .footer-text span a {
-  color: #b5876d;
+  color: #F6E3C5;
 }
 .footer-text span a:hover {
-  border-bottom: 1px solid #b5876d;
+  border-bottom: 1px solid #F6E3C5;
 }
 .footer-text > span {
   display: block;

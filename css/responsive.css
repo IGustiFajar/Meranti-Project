@@ -60,6 +60,7 @@
 @media (min-width: 992px) and (max-width: 1169px) {
   /* .container{width: 970px; max-width: 100%} */
   .header-area::after {
+    background: #1A4D2E;
     width: 35%;
   }
   .box-select .select {
@@ -176,6 +177,7 @@
     max-width: 100%;
   }
   .header-area::after {
+    background: #1A4D2E;
     height: 92px;
     width: 39%;
   }
@@ -340,7 +342,7 @@
     display: none;
   }
   .header-area {
-    background: #b5876d none repeat scroll 0 0;
+    background: #1A4D2E none repeat scroll 0 0;
     position: inherit;
   }
   .header-area::after,
