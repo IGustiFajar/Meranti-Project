@@ -1,7 +1,7 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="en">
     
-<!-- Mirrored from htmldemo.net/oestin/oestin/event.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:18:24 GMT -->
+<!-- Mirrored from htmldemo.net/oestin/oestin/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:18:27 GMT -->
 <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -19,13 +19,15 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js" integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ==" crossorigin=""></script>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-        <!-- Header Area Start -->
+       <!-- Header Area Start -->
     <header class="header-area fixed header-sticky">
         <div class="container">
           <div class="row">
@@ -146,12 +148,12 @@
 				<div class="row">
 					<div class="col-12">
 						<div class="breadcrumb-text text-center">
-							<h2>KEGIATAN</h2>
-							<p>Kumpulan kegiatan yang telah dilaksanakan</p>
+							<h2>investor</h2>
+							<p>Informasi mengenai Kepemilikan Produk</p>
 							<div class="breadcrumb-bar">
 								<ul class="breadcrumb">
 									<li><a href="index.html">BERANDA</a></li>
-									<li>Kegiatan</li>
+									<li>investor</li>
 								</ul>
 							</div>
 						</div>
@@ -160,96 +162,53 @@
 			</div>
 		</section>
 		<!-- Breadcrumb Area End -->
-        <!-- Event Area Start -->
-        <section class="event-area pt-90">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 mx-auto">
-                        <div class="section-title text-center">
-                            <h3>Kegiatan Terbaru</h3>
-                            <p>Adapun kegiatan yang telah dilaksanakan di Wisata Meranti yaitu :</p>
-                        </div>
-                    </div>
-                </div>
+        <!-- Google Map Area Start -->
+        <div class="google-map-area">
+            <!-- Google Map Area Start -->
+            <div class="google-map-area w-100">
+              <br><br>
+              <h2 style="text-align: center;">Lokasi Kepemilikan Produk </h2>
+              <div id="map" style="z-index: 3; position: absolute; height: 500px; width: 1200px; padding: 0px; border-width: 0px; margin: 0px; left: 150px; top: 550px; touch-action: pan-x pan-y; border-radius: 15px; border-width: 5px; border-style:solid; border-color: black;"></div>
+                  <script type="text/javascript">
+          
+                  var map = L.map('map').setView([-1.146959, 116.892599], 17);
+          
+                  var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                  maxZoom: 19,
+                  attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+                   }).addTo(map);
+          
+                  // Menampilkan Marker
+          
+                  // Pohon 1
+                  var marker = L.marker([-1.146171, 116.889987]).addTo(map)
+                  .bindPopup('<b>Pohon Mengkudu</b><br />Pemilik : Zulfikar.');
+
+                   // Pohon 2
+                   var marker = L.marker([-1.145882, 116.893303]).addTo(map)
+                  .bindPopup('<b>Pohon Durian</b><br />Pemilik : Ripaldi.');
+
+                   // Pohon 3
+                   var marker = L.marker([-1.147348, 116.891405]).addTo(map)
+                  .bindPopup('<b>Pohon Cemara</b><br />Pemilik : I Gusti.');
+
+
+                  // var polygon = L.polygon([
+                  // [-1.1460672606800049, 116.89325977103225],
+                  // [-1.1472793763467877, 116.89283061757942],
+                  // [-1.1477298970832028, 116.89409662026529],
+                  // [-1.1462710677749157, 116.89270187154355],
+                  // [-1.146807402165873, 116.89405370492],
+                  // [-1.147569, 116.892777]
+                  // ]).addTo(map);
+              </script>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="event-menu">                                                 
-                            <button data-filter="*" class="active"> All</button>
-                            <button data-filter=".music">Camping</button>
-                            <button data-filter=".birthday">Outbond</button>
-                            <button data-filter=".conference">Hiburan</button>
-                            <button data-filter=".wedding">Kampanye</button>
-                            <button data-filter=".photography">Wisata</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="row event-items">
-                    <div class="single-event col-md-8 col-12 conference">
-                        <div class="single-event-item">
-                           <img src="img/event/1.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title">Lomba Daur Ulang</h3>
-                                <h3 class="author-name">By : Wisata Meranti</h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-event col-md-4 small col-12 music">
-                        <div class="single-event-item">
-                           <img src="img/event/2.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title">Music Concert</h3>
-                                <h3 class="author-name"></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-event col-md-4 small col-12 birthday">
-                        <div class="single-event-item">
-                           <img src="img/event/3.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title"></h3>
-                                <h3 class="author-name"></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-event col-md-8 col-12 wedding">
-                        <div class="single-event-item">
-                           <img src="img/event/4.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title"> </h3>
-                                <h3 class="author-name"></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-event col-md-8 col-12 photography">
-                        <div class="single-event-item">
-                           <img src="img/event/5.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title"></h3>
-                                <h3 class="author-name"></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="single-event col-md-4 small col-12 photography">
-                        <div class="single-event-item">
-                           <img src="img/event/6.jpg" alt="">
-                            <div class="event-text">
-                                <h3 class="event-title"></h3>
-                                <h3 class="author-name"></h3>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Event Area End -->
+            <!-- Google Map Area Start -->
+        </div>
+        <!-- Google Map Area End -->
+        <!-- Contact Form Area Start -->
+        
+        <!-- Contact Form Area End -->
         <!-- Client Area Start -->
         <!-- <div class="client-area">
             <div class="container">
@@ -303,6 +262,7 @@
         </div> -->
         <!-- Client Area End -->
         <!-- Newsletter Area Start -->
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <section class="newsletter-area bg-light">
             <div class="container">
                 <div class="row">
@@ -331,7 +291,6 @@
             </div>
         </section>
         <!-- Newsletter Area End -->
-
         <!-- Footer Area Start -->
     <footer class="footer-area">
       <!-- Footer Widget Start -->
@@ -373,6 +332,11 @@
                   <span>+62 816-977-478<br />+62 816-977-478</span>
               </div>
               </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12 mb-60">
+            <div class="single-footer-widget">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.0188659341507!2d116.89042881473931!3d-1.1470046358135808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2df14dc822955df7%3A0x25285e9204688b7b!2sWisata%20Meranti!5e0!3m2!1sid!2sid!4v1657127645713!5m2!1sid!2sid" width="500px" height="300px" frameborder="0" style="border:0; margin-top:200px" allowfullscreen=""></iframe>
+           </div>
           </div>
           <!-- <div class="col-xl-2 col-lg-3 col-md-6 col-sm-6 col-12 mb-60">
               <div class="single-footer-widget">
@@ -448,18 +412,18 @@
         <script src="js/vendor/jquery-3.6.0.min.js"></script>
         <script src="js/vendor/jquery-migrate-3.3.2.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/owl.carousel.min.js"></script> 
+        <script src="js/owl.carousel.min.js"></script>
         <script src="js/ajax-mail.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>  	 	
-        <script src="js/jquery.meanmenu.js"></script>  
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.meanmenu.js"></script>
         <script src="js/jquery.counterup.min.js"></script>
         <script src="js/waypoints.min.js"></script>
         <script src="js/isotope.pkgd.min.js"></script>
-        <script src="js/imagesloaded.pkgd.min.js"></script>	
+        <script src="js/imagesloaded.pkgd.min.js"></script>
         <script src="js/jquery.magnific-popup.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
 
-<!-- Mirrored from htmldemo.net/oestin/oestin/event.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:18:27 GMT -->
+<!-- Mirrored from htmldemo.net/oestin/oestin/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 22 Jun 2022 12:18:27 GMT -->
 </html>
