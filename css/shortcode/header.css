@@ -73,7 +73,7 @@ NOTE: This is Header style file. All Header related style included in this file.
     color: #ffffff;
     position: relative;
 }
-.main-menu nav > ul > li:hover > a {color: #1A4D2E}
+.main-menu nav > ul > li:hover > a {color: #fff; font-weight: 900; font-size: large;}
 .main-menu ul li ul.submenu {
     background: #fff;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
