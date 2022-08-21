@@ -30,7 +30,7 @@
   .small .event-text > p {
     width: 86%;
   }
-  .location-image img {
+  .produk-image img {
     width: 100%;
   }
   .hover-text > p {
@@ -636,10 +636,10 @@
     display: block;
     float: none;
   }
-  .location-image img {
+  .produk-image img {
     width: 100%;
   }
-  .location-text > h3 {
+  .produk-text > h3 {
     font-size: 22px;
   }
   .single-room.large:hover .hover-text > h3 {

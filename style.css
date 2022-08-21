@@ -25,12 +25,13 @@
     11. Newsletter Area
     12. Room Grid / List Page
     13. Room Details Page
-    14. Location Page
+    14. produk Page
     15. Event Page
     16. Contact Page
 
 -----------------------------------------------------------------------------------*/
 /* Global css */
+
 a {
   text-decoration: none;
 }
@@ -1326,14 +1327,14 @@ span.image.s-img {
   content: "\f2f6";
 }
 
-.room-details-title {
+.detail-paket-title {
   line-height: 18px;
   margin-bottom: 34px;
   position: relative;
   text-transform: uppercase;
 }
 
-.room-details-title::after {
+.detail-paket-title::after {
   background: #1A4D2E none repeat scroll 0 0;
   bottom: -10px;
   content: "";
@@ -1343,11 +1344,11 @@ span.image.s-img {
   width: 90px;
 }
 
-.room-details-text {
+.detail-paket-text {
   padding-top: 50px;
 }
 
-.room-details-text > p {
+.detail-paket-text > p {
   margin-bottom: 24px;
 }
 
@@ -1409,7 +1410,7 @@ span.image.s-img {
   color: #ff0101;
 }
 
-.room-area .room-details-title {
+.room-area .detail-paket-title {
   margin-bottom: 40px;
 }
 
@@ -1463,13 +1464,13 @@ span.image.s-img {
   padding: 24px 20px 30px;
 }
 
-.sidebar-widget .room-details-title {
+.sidebar-widget .detail-paket-title {
   font-size: 18px;
   margin-bottom: 27px;
   padding-top: 6px;
 }
 
-.sidebar-widget .room-details-title::after {
+.sidebar-widget .detail-paket-title::after {
   bottom: -7px;
 }
 
@@ -1540,20 +1541,20 @@ span.image.s-img {
   margin: 0;
 }
 
-.room-details .single-room.large .hover-text {
+.detail-paket .single-room.large .hover-text {
   padding: 0 80px;
 }
 
 /*----------------------------------------*/
-/*  14. Location Page
+/*  14. produk Page
 /*----------------------------------------*/
-.location-image a {
+.produk-image a {
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-.location-image a::before {
+.produk-image a::before {
   background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
   bottom: 0;
   content: "";
@@ -1569,13 +1570,13 @@ span.image.s-img {
   width: 100%;
 }
 
-.location-image a:hover::before {
+.produk-image a:hover::before {
   opacity: 1;
   transform: scaleY(1);
   visibility: visible;
 }
 
-.location-image a::after {
+.produk-image a::after {
   color: #ffffff;
   content: "";
   font-family: "Material-Design-Iconic-Font";
@@ -1590,11 +1591,11 @@ span.image.s-img {
   transition: all 0.5s ease 0s;
 }
 
-.location-image a:hover::after {
+.produk-image a:hover::after {
   opacity: 1;
 }
 
-.location-text > h3 {
+.produk-text > h3 {
   color: #252525;
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -1602,11 +1603,11 @@ span.image.s-img {
   font-size: 24px;
 }
 
-.location-text > h3:hover a {
+.produk-text > h3:hover a {
   color: #1A4D2E;
 }
 
-.location-text {
+.produk-text {
   padding-top: 25px;
 }
 
@@ -1623,7 +1624,7 @@ span.image.s-img {
   float: right;
 }
 
-.single-location {
+.single-produk {
   margin-bottom: 70px;
 }
 
