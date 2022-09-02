@@ -106,7 +106,7 @@
 -------------------------- */
 	$('.client-carousel').owlCarousel({
 		loop:true,
-        autoPlay: false, 
+        autoPlay: true, 
         smartSpeed: 2000,
         fluidSpeed: true,
         items : 5,
